@@ -96,7 +96,7 @@ public class AnimatedRecyclerView extends Activity {
         enableChangeAnimations.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                mCachedAnimator.setSupportsChangeAnimations(isChecked);
+//                mCachedAnimator.setSupportsChangeAnimations(isChecked);
             }
         });
     }

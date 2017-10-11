@@ -69,7 +69,7 @@ abstract public class BaseLayoutManagerActivity<T extends RecyclerView.LayoutMan
         mLayoutManager = createLayoutManager();
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(createAdapter());
-        mRecyclerView.getItemAnimator().setSupportsChangeAnimations(true);
+//        mRecyclerView.getItemAnimator().setSupportsChangeAnimations(true);
         onRecyclerViewInit(mRecyclerView);
     }
 
