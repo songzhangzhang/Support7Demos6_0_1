@@ -17,7 +17,7 @@ package com.example.android.supportv7.util;
 
 import com.example.android.supportv7.R;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.util.SortedList;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -35,7 +35,7 @@ import android.widget.TextView;
 /**
  * A sample activity that uses {@link SortedList} in combination with RecyclerView.
  */
-public class SortedListActivity extends ActionBarActivity {
+public class SortedListActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private LinearLayoutManager mLinearLayoutManager;
     private SortedListAdapter mAdapter;

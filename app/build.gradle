@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "25.0.3"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.example.android.supportv7"
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 14
+        targetSdkVersion 26
     }
 
     buildTypes {
@@ -18,13 +18,13 @@ android {
     }
 }
 
-String support_lib_version = "25.3.1"
+String support_lib_version = "26.1.0"
 
 dependencies {
-    compile "com.android.support:appcompat-v7:${support_lib_version}"
-    compile "com.android.support:cardview-v7:${support_lib_version}"
-    compile "com.android.support:gridlayout-v7:${support_lib_version}"
-    compile "com.android.support:palette-v7:${support_lib_version}"
-    compile "com.android.support:mediarouter-v7:${support_lib_version}"
-    compile "com.android.support:preference-v7:${support_lib_version}"
+    implementation "com.android.support:appcompat-v7:${support_lib_version}"
+    implementation "com.android.support:cardview-v7:${support_lib_version}"
+    implementation "com.android.support:gridlayout-v7:${support_lib_version}"
+    implementation "com.android.support:palette-v7:${support_lib_version}"
+    implementation "com.android.support:mediarouter-v7:${support_lib_version}"
+    implementation "com.android.support:preference-v7:${support_lib_version}"
 }
